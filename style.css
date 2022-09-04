@@ -1,0 +1,155 @@
+html {
+    font-family: cursive;
+}
+
+
+body {
+    width: 50%;
+    max-width: 750px;
+    min-width: 480px;
+    margin: 0 auto;
+      background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(186,0,247,1) 0%, rgba(86,114,251,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.lastResult {
+    color: white;
+    padding: 7px;
+}
+
+.guesses {
+    color: white;
+    
+}
+
+button {
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 30px;
+    border-style: none;
+    margin-top: 30px;
+    cursor: pointer;
+    /* margin-left: 50px; */
+}
+
+#subt {
+background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+    color: #000;
+    width: 350px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 30px;
+    border-style: none;
+    margin-top: 50px;
+    /* margin-left: 75px; */
+}
+
+#guessField {
+    color: #000;
+    width: 550px;
+    height: 100px;
+    font-size: 30px;
+    border-style: none;
+    margin-top: 25px;
+    font-size: 45px;
+    /* margin-left: 50px; */
+    border: 5px solid #14727d;
+    text-align: center;
+}
+
+#guess {
+    font-size: 55px;
+    /* margin-left: 90px; */
+    margin-top: 120px;
+    color: #fff;
+}
+
+
+
+#wrapper {
+    box-sizing: border-box;
+    text-align: center;
+    width: 750px;
+    height: 550px;
+    color: #fff;
+    font-size: 25px;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    width: 750px;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+      text-align: center;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 8.5vw;
+  text-transform: uppercase;
+}
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+
+.title-word-3 {
+  --color-1: #ACCFCB;
+  --color-2: #E4A9A8;
+  --color-3: #ACCFCB;
+}
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
